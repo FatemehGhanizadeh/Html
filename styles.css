@@ -1,0 +1,297 @@
+@import url("reset.css");
+
+body
+{background-color:#f0f0f0;
+    direction:rtl;
+    font-family:tahoma;
+
+}
+
+.container
+{
+    width: 1100px;
+    /* background-color: yellow; */
+    margin: auto;
+    position: relative;
+}
+
+/* header */
+
+#header
+{
+margin-top: 20px;
+}
+
+#header #logo img
+{
+width: 90px;
+}
+
+#header #logo .titles h1
+{
+font-size: 30px;
+font-weight: bold;
+}
+
+#header .titles h2
+{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+ #header #logo .titles
+{display: inline-block;
+position: relative;
+top: -15px;
+right: 10px;
+}
+
+#header .users
+{
+    position: absolute;
+    top:40px ;
+    left: 5px;
+    
+
+}
+
+#header .users .button
+{
+    text-decoration: none;
+    padding: 5px 15px;
+    color:#fff;
+    border-radius: 3px;
+}
+
+#header .users .login
+{
+    background-color: #1565c0;
+}
+
+#header .users .login:hover
+{
+    background-color: #0d47a1;
+}
+
+#header .users .register
+{
+    background-color:#2e7d32 ;
+}
+
+#header .users .register:hover
+{
+    background-color: #1b5e20;
+}
+
+/* navigation */
+
+#navigation
+{
+    background-color: #263238;
+    margin-top:20px ;
+}
+
+#navigation a
+{
+text-decoration: none;
+color: #fff;
+font-size: 17px;
+display: inline-block;
+/* padding: 20px 15px; */
+transition: 0.15s;
+}
+
+#navigation a:hover
+{
+/* background-color: #37474f; */
+}
+
+#navigation ul li
+{
+    display: inline-block;
+    padding: 20px 15px;
+    transition: 0.15s;
+}
+
+#navigation ul li:hover
+{
+background-color:#37474f ;
+}
+
+#contant
+{
+    padding: 10px;
+    float: right;
+    width: 800px;
+    box-sizing: border-box;
+margin-top: 10px;
+}
+
+.post_item
+{
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-top: 15px;
+}
+
+.post_item:first-child
+{
+    margin-top: 0;
+}
+
+.post_item .post_title
+{
+    font-size: 27px;
+    font-weight: bold;
+    border-bottom: 2px dashed #ccc;
+    padding: 15px;
+}
+
+.post_item .post_img
+{
+    float: right;
+}
+
+.post_item .post_img img
+{
+    width:300px ;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.post_item .post_content
+{
+    padding: 5px;
+    line-height: 25px;
+    height: 240px;
+    overflow: hidden;
+}
+
+.post_item .post_data
+{
+    background-color:#f0f0f0 ;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+.post_item .read_more
+{
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    position:absolute;
+    left: 5px;
+    bottom: 7px;
+}
+
+.post_item .read_more:hover{
+    background-color: #000;
+}
+
+
+/* sidebar */
+
+#sidebar
+{
+padding: 10px;
+float: left;
+width: 290px;
+box-sizing:border-box ;
+}
+
+#sidebar .sidebar_item
+{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#sidebar .sidebar_item .sidebar_header
+{
+    background-color: #212121;
+    color:#fff ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    
+    
+}
+
+#sidebar .sidebar_item .sidebar_content
+{
+    padding: 10px;
+}
+
+#sidebar .categories ul li a
+{text-decoration: none;
+    color:#212121;
+    margin-top: 10px;
+    display: inline-block;
+    border-right: 2px solid #212121;
+    padding-right: 5px;
+    transition: 0.25s;
+}
+
+#sidebar .categories ul li a:hover
+{border-right: 4px solid #1565c0;
+    margin-right: 5px;
+
+}
+
+#sidebar .newsletter
+{
+    text-align: center;
+}
+
+#sidebar .newsletter .sidebar_content p
+{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#sidebar .newsletter .email_input
+{  padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#sidebar .newsletter .submit_btn
+{
+    background-color: #2e7d32;
+    margin-top: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+#sidebar .newsletter .submit_btn:hover
+{
+    background-color: #266429;
+    cursor: pointer;
+}
+.clearfix
+{
+    clear: both;
+}
+
+#footer
+{
+    background-color:#212121;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
